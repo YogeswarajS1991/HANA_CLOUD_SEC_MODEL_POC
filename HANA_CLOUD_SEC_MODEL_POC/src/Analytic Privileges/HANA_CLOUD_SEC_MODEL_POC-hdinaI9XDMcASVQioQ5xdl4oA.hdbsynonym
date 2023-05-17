@@ -1,0 +1,8 @@
+{
+  "CV_QUALITY_POC": {
+    "target": {
+      "object": "CV_QUALITY_POC",
+      "schema": "HANA_CLOUD_APP_MODEL_POC"
+    }
+  }
+}

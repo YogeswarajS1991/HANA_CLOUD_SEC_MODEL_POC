@@ -1,0 +1,17 @@
+{
+    "role": {
+        "name": "SECURITY_PROCEDURE",
+        "object_privileges": [
+            {
+                "name": "SET_PASSWORD_POLICY",
+                "type": "PROCEDURE",
+                "privileges": ["EXECUTE"]
+            },
+            {
+                "name": "USER_ADMIN_PROCE",
+                "type": "PROCEDURE",
+                "privileges": ["EXECUTE"]
+            }
+        ]
+    }
+}

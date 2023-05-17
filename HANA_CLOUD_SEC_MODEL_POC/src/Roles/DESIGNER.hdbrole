@@ -1,0 +1,20 @@
+{
+    "role": {
+      "name": "DESIGNER",
+      "object_privileges": [
+        {
+          "name": "cvqualitypoc.calculationview",
+          "type": "SYNONYM",
+          "privileges": [
+            "SELECT"
+          ]
+        }
+      ],
+      "schema_analytic_privileges": [
+        {
+          "privileges":
+          ["AP_QUALITY_SEC"]
+        }
+      ]
+    }
+  }
