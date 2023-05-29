@@ -5,15 +5,57 @@
       "schema": "SYS"
     }
   },
+  "sys_di.tt_schema_roles": {
+    "target": {
+      "object": "TT_SCHEMA_ROLES",
+      "schema": "_SYS_DI"
+    }
+  },
+  "sys_di.t_no_parameters": {
+    "target": {
+      "object": "T_NO_PARAMETERS",
+      "schema": "_SYS_DI"
+    }
+  },
   "sys.get_insufficient_privilege_error_details": {
     "target": {
       "object": "GET_INSUFFICIENT_PRIVILEGE_ERROR_DETAILS",
       "schema": "SYS"
     }
   },
+  "sys_di#broker_cg.grant_container_schema_roles": {
+    "target": {
+      "object": "GRANT_CONTAINER_SCHEMA_ROLES",
+      "schema": "_SYS_DI#BROKER_CG"
+    }
+  },
+  "sys_di#broker_cg.revoke_container_schema_roles": {
+    "target": {
+      "object": "REVOKE_CONTAINER_SCHEMA_ROLES",
+      "schema": "_SYS_DI#BROKER_CG"
+    }
+  },
+  "hana_cloud_sec_model_poc#di.grant_container_schema_roles": {
+    "target": {
+      "object": "GRANT_CONTAINER_SCHEMA_ROLES",
+      "schema": "HANA_CLOUD_SEC_MODEL_POC#DI"
+    }
+  },
+  "hana_cloud_sec_model_poc#di.revoke_container_schema_roles": {
+    "target": {
+      "object": "REVOKE_CONTAINER_SCHEMA_ROLES",
+      "schema": "HANA_CLOUD_SEC_MODEL_POC#DI"
+    }
+  },
   "cvqualitypoc.calculationview": {
     "target": {
       "object": "CV_QUALITY_POC",
+      "schema": "HANA_CLOUD_APP_MODEL_POC"
+    }
+  },
+  "cvinventory3.calculationview": {
+    "target": {
+      "object": "CV_INVENTORY3",
       "schema": "HANA_CLOUD_APP_MODEL_POC"
     }
   },

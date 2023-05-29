@@ -11,6 +11,11 @@
                 "name": "USER_ADMIN_PROCE",
                 "type": "PROCEDURE",
                 "privileges": ["EXECUTE"]
+            },
+            {
+                "name": "USER_ADMIN_PROCE_G",
+                "type": "PROCEDURE",
+                "privileges": ["EXECUTE"]
             }
         ]
     }

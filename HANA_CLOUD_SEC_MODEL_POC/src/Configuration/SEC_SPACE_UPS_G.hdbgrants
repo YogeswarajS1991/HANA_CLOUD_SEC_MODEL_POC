@@ -61,6 +61,15 @@
                     ]
                 },
                 {
+                    "schema": "HANA_CLOUD_APP_MODEL_POC",
+                    "name": "CV_INVENTORY3",
+                    "type": "VIEW",
+                    "privileges_with_grant_option": [
+                        "SELECT"              
+                    ]
+                },
+
+                {
                     "schema": "SYSTEM",
                     "name": "ALTER_JWT_PROVIDER",
                     "type": "PROCEDURE",
@@ -121,6 +130,14 @@
                     "type": "VIEW",
                     "privileges_with_grant_option": [
                         "SELECT", "CREATE OBJECT STRUCTURED PRIVILEGE"              
+                    ]
+                },
+                {
+                    "schema": "HANA_CLOUD_APP_MODEL_POC",
+                    "name": "CV_INVENTORY3",
+                    "type": "VIEW",
+                    "privileges_with_grant_option": [
+                        "SELECT"              
                     ]
                 }
             ]

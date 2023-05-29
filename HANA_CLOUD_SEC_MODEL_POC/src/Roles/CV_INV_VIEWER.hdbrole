@@ -1,0 +1,14 @@
+{
+    "role": {
+      "name": "CV_INV_VIEWER",
+      "object_privileges": [
+        {
+          "name": "cvinventory3.calculationview",
+          "type": "SYNONYM",
+          "privileges": [
+            "SELECT"
+          ]
+        }
+      ]
+    }
+}

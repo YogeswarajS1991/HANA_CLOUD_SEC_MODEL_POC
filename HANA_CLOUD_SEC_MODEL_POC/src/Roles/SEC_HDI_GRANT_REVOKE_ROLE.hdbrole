@@ -1,0 +1,27 @@
+{
+    "role": {
+        "name": "SEC_HDI_GRANT_REVOKE_ROLE",
+        "object_privileges": [
+            {
+                "name": "hana_cloud_sec_model_poc#di.grant_container_schema_roles",
+                "type": "PROCEDURE",
+                "privileges": ["EXECUTE"]
+            },
+            {
+                "name": "hana_cloud_sec_model_poc#di.revoke_container_schema_roles",
+                "type": "PROCEDURE",
+                "privileges": ["EXECUTE"]
+            },
+            {
+                "name": "sys_di.tt_schema_roles",
+                "type": "TABLE",
+                "privileges": ["SELECT"]
+            },
+            {
+                "name": "sys_di.t_no_parameters",
+                "type": "TABLE",
+                "privileges": ["SELECT"]
+            }
+        ]
+    }
+}
