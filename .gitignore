@@ -2,3 +2,4 @@ mta_archives/
 
 # auto generated wildcard
 HANA_CLOUD_SEC_MODEL_POC/.env
+.vscode
