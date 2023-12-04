@@ -1,7 +1,10 @@
 {
-  "SELECT__SYS_STATISTICS": {
+  "TEST_SCHEMA": {
     "_SYS_STATISTICS_SCHEMA": {
       "schema": "_SYS_STATISTICS"
+    },
+    "_SYS_BI_SCHEMA": {
+      "schema": "_SYS_BI"
     }
   }
 }

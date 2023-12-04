@@ -1,0 +1,23 @@
+{
+  "role": {
+    "name": "TEST_SCHEMA",
+    "schema_privileges": [
+      {
+        "reference": "_SYS_STATISTICS_SCHEMA",
+        "privileges": [
+          "SELECT"
+        ]
+      },
+      {
+        "reference": "_SYS_BI_SCHEMA",
+        "privileges": [
+          "EXECUTE"
+        ]
+      }
+    ],
+    "system_privileges": [
+      "CATALOG READ",
+      "CERTIFICATE ADMIN"
+    ]
+  }
+}
